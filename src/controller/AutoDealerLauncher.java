@@ -45,7 +45,7 @@ public class AutoDealerLauncher {
         vestigingGoumere.voegAutoToe(auto[0]);
         vestigingGoumere.voegAutoToe(auto[1]);
         vestigingGoumere.voegAutoToe(auto[2]);
-        System.out.println(vestigingGoumere);
+        System.out.println(vestigingGoumere); // test printen vestiging met auto's
 
         //print autos na datum
         ArrayList<Auto> autosNaDatum = vestigingGoumere.geeftAutosNaDatum(LocalDate.of(2016, 12, 31));
